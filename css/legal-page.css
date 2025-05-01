@@ -1,8 +1,11 @@
 .legal-header {
+  position: fixed;
+  top: 60px;
+  right: 0;
   background-color: #e2e2e2;
   padding: 30px;
-  margin-top: 60px;
   width: 100%;
+  z-index: 1000;
 }
 
 .legal-header h1 {
@@ -12,6 +15,9 @@
 }
 
 main {
+  padding-top: 180px;
+  margin: 0 auto;
+  max-width: 900px;
 }
 
 section {
@@ -30,6 +36,10 @@ section {
   background-color: #2b2d3b;
   height: max-content;
   padding: 10px 16px;
+  position: sticky;
+  top: 180px;
+  align-self: flex-start;
+  z-index: 500;
 }
 
 .document-content {
@@ -53,6 +63,10 @@ section {
 }
 
 footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
   display: flex;
   align-items: center;
   width: 100%;

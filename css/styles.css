@@ -35,7 +35,7 @@ header.exercise-header {
   width: 100%;
   display: flex;
   align-items: center;
-  z-index: 10;
+  z-index: 1000;
 }
 
 .top-nav {
